@@ -31,3 +31,22 @@ Use the Twitchtv JSON API
 12. When you are finished, click the "I've completed this challenge" button and include a link to your CodePen.
 
 13. You can get feedback on your project by sharing it with your friends on Facebook.
+
+Construction
+---
+**Dependencies:** [jQuery](https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js), [asyquence](https://cdnjs.cloudflare.com/ajax/libs/asynquence/0.9.0/asq.js)
+
+**Stage 1:** My customary startpoint for the Intermediate FE Projects is to explore the API options. In this case we won't be using the Twitch API, because of restrictions like user permissions. Instead we will use a third-party API @ [windbow.hyperdev.space](https://wind-bow.hyperdev.space/twitch-api), which, though its features are limited, has exactly what we will need for this project.
+* Now let's flesh out our AJAX call to said API
+```javascript
+   $.ajax({
+      accepts: {
+        v3: "application/vnd.twitchtv.v3+json",
+      },
+      type: "GET",
+      url: "https://wind-bow.hyperdev.space/twitch-api/users/" + users,
+      dataType: "jsonp",
+      error: errAjax,
+      success: loadResults,
+   });
+```
