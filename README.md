@@ -31,3 +31,7 @@ Use the Twitchtv JSON API
 12. When you are finished, click the "I've completed this challenge" button and include a link to your CodePen.
 
 13. You can get feedback on your project by sharing it with your friends on Facebook.
+
+---
+
+###Construction
