@@ -19,7 +19,8 @@ Use the Twitchtv JSON API
 8. **Hint**: The relevant documentation about this API call is here: https://github.com/justintv/Twitch-API/blob/master/v3_resources/streams.md#get-streamschannel.
 
 9. **Hint**: Here's an array of the Twitch.tv usernames of people who regularly stream: ```javascript
-["ESL_SC2", "OgamingSC2", "cretetion", "freecodecamp", "storbeck", "habathcx", "RobotCaleb", "noobs2ninjas"]```
+["ESL_SC2", "OgamingSC2", "cretetion", "freecodecamp", "storbeck", "habathcx", "RobotCaleb", "noobs2ninjas"]
+```
 
 10. **UPDATE**: Due to a change in conditions on API usage explained [here](https://blog.twitch.tv/client-id-required-for-kraken-api-calls-afbb8e95f843#.2eo62laqz) Twitch.tv now requires an API key, but we've built a workaround. Use https://wind-bow.hyperdev.space/twitch-api instead of twitch's API base URL (i.e. https://api.twitch.tv/kraken ) and you'll still be able to get account information, without needing to sign up for an API key.
 
