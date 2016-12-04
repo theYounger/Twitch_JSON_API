@@ -39,14 +39,30 @@ Construction
 **Stage 1:** My customary startpoint for the Intermediate FE Projects is to explore the API options. In this case we won't be using the Twitch API, because of restrictions like user permissions. Instead we will use a third-party API @ [windbow.hyperdev.space](https://wind-bow.hyperdev.space/twitch-api), which, though its features are limited, has exactly what we will need for this project.
 * Now let's flesh out our AJAX call to said API
 ```javascript
-   $.ajax({
-      accepts: {
-        v3: "application/vnd.twitchtv.v3+json",
-      },
-      type: "GET",
-      url: "https://wind-bow.hyperdev.space/twitch-api/users/" + users,
-      dataType: "jsonp",
-      error: errAjax,
-      success: loadResults,
-   });
+$.ajax({
+   accepts: {
+     v3: "application/vnd.twitchtv.v3+json",
+   },
+   type: "GET",
+   url: "https://wind-bow.hyperdev.space/twitch-api/users/" + users,
+   dataType: "jsonp",
+   error: errAjax,
+   success: loadResults,
+});
+```
+* Here is an example of the server response
+```javascript
+Object {
+  _id: 30220059,
+  _links: Object {
+    self: "https://api.twitch.tv/kraken/users/esl_sc2"
+  },
+  bio: "For standings, schedule, and results, visit http://www.intelextrememasters.com/",
+  created_at: "2012-05-02T09:59:20Z",
+  display_name: "ESL_SC2",
+  logo: "https://static-cdn.jtvnw.net/jtv_user_pictures/esl_sc2-profile_image-d6db9488cec97125-300x300.jpeg",
+  name: "esl_sc2",
+  type: "user",
+  updated_at: "2016-12-04T22:34:50Z"
+}
 ```
