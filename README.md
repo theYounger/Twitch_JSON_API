@@ -35,4 +35,4 @@ Use the Twitchtv JSON API
 Construction
 ---
 
-**Stage 1:** 
+**Stage 1:** My customary startpoint for the Intermediate FE Projects is to explore the API options. In this case we won't be using the Twitch API, because of restrictions like user permissions. Instead we will use a third-party API @ [windbow.hyperdev.space](https://wind-bow.hyperdev.space/twitch-api), which, though its features are limited, has exactly what we will need for this project.
