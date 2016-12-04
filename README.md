@@ -18,7 +18,8 @@ Use the Twitchtv JSON API
 
 8. **Hint**: The relevant documentation about this API call is here: https://github.com/justintv/Twitch-API/blob/master/v3_resources/streams.md#get-streamschannel.
 
-9. **Hint**: Here's an array of the Twitch.tv usernames of people who regularly stream: ```javascript
+9. **Hint**: Here's an array of the Twitch.tv usernames of people who regularly stream:
+```javascript
 ["ESL_SC2", "OgamingSC2", "cretetion", "freecodecamp", "storbeck", "habathcx", "RobotCaleb", "noobs2ninjas"]
 ```
 
