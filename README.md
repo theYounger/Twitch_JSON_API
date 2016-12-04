@@ -32,6 +32,7 @@ Use the Twitchtv JSON API
 
 13. You can get feedback on your project by sharing it with your friends on Facebook.
 
+Construction
 ---
 
-###Construction
+**Stage 1:** 
