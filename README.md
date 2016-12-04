@@ -1,6 +1,7 @@
 # Twitch_JSON_API
 
-Use the Twitchtv JSON API
+## Use the Twitchtv JSON API
+---
 
 1. **Objective:** Build a [CodePen.io](https://codepen.io/) app that is functionally similar to this: https://codepen.io/FreeCodeCamp/full/Myvqmo/.
 
