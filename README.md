@@ -52,9 +52,9 @@ $.ajax({
 ```
 * Here is an example of the server response
 ```javascript
-Object {
+{
   _id: 30220059,
-  _links: Object {
+  _links: {
     self: "https://api.twitch.tv/kraken/users/esl_sc2"
   },
   bio: "For standings, schedule, and results, visit http://www.intelextrememasters.com/",
