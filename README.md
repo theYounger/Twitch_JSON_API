@@ -37,7 +37,7 @@ Construction
 **Dependencies:** [jQuery](https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js), [asyquence](https://cdnjs.cloudflare.com/ajax/libs/asynquence/0.9.0/asq.js)
 
 **Stage 1:** My customary startpoint for the Intermediate FE Projects is to explore the API options. In this case we won't be using the Twitch API, because of restrictions like user permissions. Instead we will use a third-party API @ [windbow.hyperdev.space](https://wind-bow.hyperdev.space/twitch-api), which, though its features are limited, has exactly what we will need for this project.
-+Now let's flesh out our AJAX call
+* Now let's flesh out our AJAX call
 ```javascript
    $.ajax({
       accepts: {
